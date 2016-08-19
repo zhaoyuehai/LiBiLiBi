@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- 粉红主题 -->
+    <style name="AppBaseTheme_PINK" parent="AppBaseTheme_Light.Base">
+        <item name="colorPrimary">@color/colorPrimary_pink</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_pink</item>
+        <item name="colorAccent">@color/colorAccent_pink</item>
+        <item name="background_color">@color/colorAccent_pink</item>
+        <item name="menu_background">@drawable/side_nav_bar</item>
+        <item name="menu_head_background">@color/white</item>
+    </style>
+
+    <style name="AppBaseTheme_Light.Base" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="editTextColor">@color/gray</item>
+    </style>
+
+    <!-- 粉红主题 -->
+    <style name="AppBaseTheme_DARK" parent="AppBaseTheme_Night.Base" >
+        <item name="colorPrimary">@color/colorPrimary_dark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_dark</item>
+        <item name="colorAccent">@color/colorAccent_dark</item>
+        <item name="background_color">@color/colorPrimary_dark</item>
+        <item name="menu_background">@drawable/side_nav_bar_drak</item>
+        <item name="menu_head_background">@drawable/side_nav_bar_drak</item>
+    </style>
+
+    <style name="AppBaseTheme_Night.Base" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="editTextColor">@color/gray</item>
+    </style>
+    <style name="ToolBar_style" parent="@style/ThemeOverlay.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">?attr/background_color</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <item name="ic_menu_home" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_cache" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_favorite" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <item name="ic_menu_history" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_firends" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_pay" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_theme" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_setting" type="drawable">@android:drawable/ic_menu_send</item>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="background_color" format="reference"/>
+    <attr name="menu_background" format="reference"/>
+    <attr name="menu_head_background" format="reference"/>
+</resources>
